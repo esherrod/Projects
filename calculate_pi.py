@@ -13,4 +13,4 @@ def estimate_pi(n):
     
     return 4 * points_in_circle/points_total
 
-print(estimate_pi(200000000))
+print(estimate_pi(2000000))
