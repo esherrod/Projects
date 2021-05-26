@@ -8,13 +8,13 @@ loses = 0
 ties = 0
 
 def start_playing():
-#while replay_check != "N":
+
   global replay
   global replay_check
   global wins
   global loses
   global ties
-  #def start_playing():
+  
   while replay_check != "N":
 
     while True:
