@@ -7,15 +7,15 @@ wins = 0
 loses = 0
 ties = 0
 
-while replay_check != "N":
-  
-  def start_playing():
-    
-    global replay
-    global replay_check
-    global wins
-    global loses
-    global ties
+def start_playing():
+#while replay_check != "N":
+  global replay
+  global replay_check
+  global wins
+  global loses
+  global ties
+  #def start_playing():
+  while replay_check != "N":
 
     while True:
       try:
@@ -94,7 +94,7 @@ while replay_check != "N":
         time.sleep(1)
 
 
-  start_playing()
+start_playing()
 
 
 print("You won {} time(s), Lost {} time(s), and you Tied {} time(s)".format(wins, loses, ties))
