@@ -13,4 +13,6 @@ def estimate_pi(n):
     
     return 4 * points_in_circle/points_total
 
-print(estimate_pi(2000000))
+amount = int(input("How many points would you like to test to try and replicate pi: "))
+
+print(estimate_pi(amount))
